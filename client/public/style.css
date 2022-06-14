@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.sidebar{
+    position: sticky; 
+    top: 50px; 
+    
+}
+
+.sidebarHr{
+    margin: 20px 0;
+}
+
+.sidebarFriend{
+
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+
+    
+}
+
+.shareOptions{
+    display: flex;
+    margin-right: 120px;
+
+}
+
+.shareOption{
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.shareIcon{
+    font-size: 20px;
+    margin-right: 3px;
+}
+
+.shareOptionText {
+
+    font-size:14px;
+    font-weight: 500;
+}
+
+.shareButton{
+    border: none;
+    padding:7px;
+    border-radius: 5px;
+    background-color: green;
+    font-weight: bold;
+    margin-right: 20px;
+    cursor: pointer; 
+    color:white;
+}
+
+.postUserName{
+    font-size: 15px;
+    font-weight: 500;
+    margin: 0 10px;
+}
+.postBottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}; 
+
+.rightbarProfileImg{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+
+.postDate{
+    font-size: 12px;
+    
+};
+
+.rightbarUsername {
+    font-weight: 500;
+}
+
+
+.profile{
+    display: flex;
+}
+.profileInfoName{
+    font-size: 25px;
+
+}
+
+.profileInfoDesc{
+    font-weight: 300; 
+}
+.profileInfo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.profileUserImg{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 150px;
+    border: 3px solid white; 
+
+};
+
+
+.profileRight {
+    flex: 9;
+}
+
+.profileCover{
+    height: 320px;
+    position: relative;
+}
+
+
+
+.loginDesc{
+
+    font-size: 24px;
+
+}
+.loginForgot{
+    text-align: center;
+    color: #1775ee;
+    cursor: pointer;
+    
+}
+
+
+.loginButton{
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    background-color: #1775ee;
+    color:white;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+}; 
+
+.profileCoverImg{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+};
+
+.rightbarInfoKey{
+    font-weight: 500;
+    margin-right: 15px;
+    color: #555
+};
+
