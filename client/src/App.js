@@ -9,7 +9,7 @@ import {
   Routes
 } from "react-router-dom";
 
-
+console.log(2**6.64)
 
 
 function App() {
@@ -23,7 +23,7 @@ function App() {
       
       <Route path="/register" element={ <Register /> }/>
 
-      <Route path="/profile" element={ <Profile /> }/>
+      <Route path="/profile/:userName" element={ <Profile /> }/>
 
     </Routes>
   </Router>

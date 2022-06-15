@@ -3,31 +3,31 @@ export const Users = [
 
     id: 1,
     userName: 'Gwen Stacy',
-    profilePicture: "assets/profilePictures/gwenStacy.jpg",
+    profilePicture: "profilePictures/gwenStacy.jpg",
 },
 {
 
     id: 2,
     userName: 'Harry Osborn',
-    profilePicture: "assets/profilePictures/harryOsborn.jpg",
+    profilePicture: "profilePictures/harryOsborn.jpg",
 },
 {
 
     id: 3,
     userName: 'Maryjane Watson',
-    profilePicture: "assets/profilePictures/maryjaneWatson.png",
+    profilePicture: "profilePictures/maryjaneWatson.png",
 },
 {
 
     id: 4,
     userName: 'Mr Osborn',
-    profilePicture: "assets/profilePictures/misterOsborn.jpg",
+    profilePicture: "profilePictures/misterOsborn.jpg",
 },
 {
 
     id: 5,
     userName: 'Stan Lee',
-    profilePicture: "assets/profilePictures/stanLee.jpg",
+    profilePicture: "profilePictures/stanLee.jpg",
 },
 ]
 
@@ -38,7 +38,7 @@ export const Posts = [
         userName: "Gwen Stacy",
         profileImg:"assets/profilePictures/gwenStacy.jpg",
         desc: "It was love at first sight for the spiderman",
-        photo: "assets/Posts/spideyGwen.jpg",
+        photo: "Posts/spideyGwen.jpg",
         date: "2 hours ago",
         userId: 1,
         likes: 28,
@@ -49,7 +49,7 @@ export const Posts = [
         userName: "Harry Osborn",
         profileImg:"assets/profilePictures/harryOsborn.jpg",
         desc: "Spent the day studying",
-        photo: "assets/Posts/harryStudy.jpg",
+        photo: "Posts/harryStudy.jpg",
         date: "3 mins ago",
         userId: 2,
         likes: 93,
@@ -60,7 +60,7 @@ export const Posts = [
         userName: "Maryjane Watson",
         profileImg:"assets/profilePictures/maryjaneWatson.png",
         desc: "Quick selfie",
-        photo: "assets/Posts/mjSelfie.jpg",
+        photo: "Posts/mjSelfie.jpg",
         date: "8 mins ago",
         userId: 3,
         likes: 112,
@@ -71,7 +71,7 @@ export const Posts = [
         userName: "Mr.Osborn",
         profileImg:"assets/profilePictures/misterOsborn.jpg",
         desc: "I'm something of an engineer myself",
-        photo: "assets/Posts/mrOzzy.jpg",
+        photo: "Posts/mrOzzy.jpg",
         date: "12 mins ago",
         userId: 4,
         likes: 4,
@@ -80,7 +80,7 @@ export const Posts = [
     {
         id: 5,
         userName: "Stan Lee",
-        profileImg:"assets/profilePictures/stanLee.jpg",
+        profileImg:"profilePictures/stanLee.jpg",
         desc: "Ran into some kid the other day who says he's Spiderman ",
         photo: "assets/Posts/stanCameo.jpg",
         date: "7 mins ago",

@@ -4,6 +4,9 @@ import Sidebar from "../../components/sidebar/Sidebar"
 import Topbar from "../../components/topbar/Topbar"
 import "../profile/profile.css"
 export default function Profile() {
+
+    const PF = process.env.REACT_APP_PUBLIC_FOLDER;
+    
 return (
 
 <>
@@ -14,8 +17,8 @@ return (
             <div className="profileRightTop">
                 <div className="profileCover">
 
-                <img className = "profileCoverImg"src ="assets/profilePictures/newYorkUnsplash.jpg" alt = ""/>
-                <img className = "profileUserImg"src ="assets/profilePictures/peterParker.jpg" alt = ""/>
+                <img className = "profileCoverImg"src ={`${PF}profilePictures/newYorkUnsplash.jpg`} alt = ""/>
+                <img className = "profileUserImg"src ={`${PF}profilePictures/peterParker.jpg`} alt = ""/>
                 </div>
                 <div className="profileInfo">
                     <h4 className = "profileInfoName">Peter Parker</h4>

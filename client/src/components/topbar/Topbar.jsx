@@ -1,5 +1,6 @@
 import "./topBar.css"
 import {SearchSharp, PersonSharp,ChatSharp, NotificationsSharp} from "@mui/icons-material"
+import {Link} from "react-router-dom"
 
 export default function Topbar() {
   return (
@@ -7,8 +8,10 @@ export default function Topbar() {
         
         <div className="topBarLeft">
 
-
+          <Link to ="/" style = {{textDecoration:"none"}}>
           <span className="logo">LinkBook</span>
+          </Link>
+
         </div>
 
 
@@ -46,7 +49,9 @@ export default function Topbar() {
               <span className="topBarIconBadge">3</span>
             </div>
           </div>
+          <Link to = "/profile/:userName">
           <img src="assets/profilePictures/peterParker.jpg" alt="" className="topBarImg" />
+          </Link>
 
 
         </div>
