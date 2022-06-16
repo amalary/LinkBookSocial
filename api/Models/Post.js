@@ -9,6 +9,13 @@ const PostSchema = new mongoose.Schema ({
         required:true,
 
     },
+    userName: {
+        type:String,
+        required: true,
+        min: 3,
+        max: 25,
+        unique: true,
+    },
 
     desc: {
         type:String,
@@ -23,10 +30,10 @@ const PostSchema = new mongoose.Schema ({
 
         type:Array,
         default:[],
-    }
+    },
 },
 
-{timeStamp:true}
+{timestamps:true}
 
 );
 
